@@ -26,8 +26,6 @@ using  std::getline;
 class Course
 {
 private:
-
-public:
 	string Dept;
 	int ClassNum;
 	string Title;
@@ -46,6 +44,8 @@ public:
 	vector<double> distrib;
 	double dfwRate;
 	int totalStudents;
+public:
+
 
 	Course(string dept, int classNum, string title, int a, int b, int c, int d, int f, int i, int nr, int s, int u, int w, string instructor)
 		: Dept(dept), ClassNum(classNum), Title(title), A(a), B(b), C(c), D(d), F(f), I(i), NR(nr), S(s), U(u), W(w), Instructor(instructor)
